@@ -13,7 +13,12 @@ export default {
       ms: '1000px',
       xl: '1440px',
     },
-    extend: {},
+    extend: {
+      colors: {
+        primaryColor: '#0D9347',
+
+      }
+    },
   },
   plugins: [],
 }

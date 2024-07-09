@@ -1,12 +1,13 @@
 import React from 'react'
 import Signin from './pages/Signin'
-import Dashboard from './pages/Dashboard'
+import UserDashboard from './pages/UserDashboard';
+import { Route, Routes } from 'react-router-dom'
 
 export default function App() {
   return (
-    <>
-      {/* <Dashboard /> */}
-      <Signin />
-    </>
+    <Routes>
+      <Route path='/' element={<Signin />} />
+      <Route path='/userdashboard' element={<UserDashboard />} />
+    </Routes>
   )
 }

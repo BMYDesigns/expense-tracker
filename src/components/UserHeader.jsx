@@ -1,17 +1,13 @@
-import React from 'react';
-import logo from '../assets/IMG/Kadict.svg';
-import { User, Bell } from 'lucide-react'
+import React from 'react'
 
-export default function Dashboard() {
-    const user = [
-        { icon: '' }
-    ]
+export default function
+    () {
     return (
         <>
             <div className='flex justify-around items-center w-full shadow p-5'>
                 <div className='flex items-center'>
                     <img src={logo} alt="" className='h-20 sm-h-10' />
-                    <span className='text-3xl text-[#0D9347] font-semibold'>KADICT</span>
+                    <span className='text-3xl text-primaryColor font-semibold'>KADICT</span>
                 </div>
                 <p className='text-2xl text-[#0D9347] font-semibold'>Dashboard</p>
                 <div className='flex items-center gap-10 '>
@@ -22,7 +18,7 @@ export default function Dashboard() {
                     </div>
                 </div>
             </div>
+
         </>
     )
 }
-
